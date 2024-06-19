@@ -1,0 +1,7 @@
+# Notes
+
+ocrmypdf --tesseract-timeout 0 --force-ocr PL107-056.pdf PL107-056_ocr.pdf
+
+ocrmypdf --sidecar PL107_056.txt PL107-056_ocr.pdf PL107-056_ocr.pdf
+
+Ask about Financial Services Regulatory Relief Act of 2006 (P.L. 109-351, 120 STAT. 9). There is already a Financial Services Regulatory Relief Act of 2006 (P.L. 109-351)

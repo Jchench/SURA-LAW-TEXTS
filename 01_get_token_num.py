@@ -18,46 +18,88 @@ def num_tokens_from_string(string: str, encoding_name: str) -> int:
 # double check directories
 print(os.listdir('src/machine_readable'))
 
-# PUBL203
+# PL111-203
 
-with open('src/machine_readable/PUBL203.txt', 'r') as f:
-  PUBL203_text = f.read()
+with open('src/machine_readable/PL111_203.txt', 'r') as f:
+  PL111_203_text = f.read()
 
-PUBL203_num = num_tokens_from_string(PUBL203_text, "cl100k_base")
+PL111_203_num = num_tokens_from_string(PL111_203_text, "cl100k_base")
 
-# PUBL174
+# PL115-174
 
-with open('src/machine_readable/PUBL174.txt', 'r') as f:
-  PUBL174_text = f.read()
+with open('src/machine_readable/PL115_174.txt', 'r') as f:
+  PL115_174_text = f.read()
 
-PUBL174_num = num_tokens_from_string(PUBL174_text, "cl100k_base")
+PL115_174_num = num_tokens_from_string(PL115_174_text, "cl100k_base")
 
-# PUBL283
+# PL116-283
 
-with open('src/machine_readable/PUBL283.txt', 'r') as f:
-  PUBL283_text = f.read()
+with open('src/machine_readable/PL116_283.txt', 'r') as f:
+  PL116_283_text = f.read()
 
-PUBL283_num = num_tokens_from_string(PUBL283_text, "cl100k_base")
+PL116_283_num = num_tokens_from_string(PL116_283_text, "cl100k_base")
 
-# PUBL022
+# PL111-022
 
-with open('src/machine_readable/PUBL022.txt', 'r') as f:
-  PUBL022_text = f.read()
+with open('src/machine_readable/PL111_022.txt', 'r') as f:
+  PL111_022_text = f.read()
 
-PUBL022_num = num_tokens_from_string(PUBL022_text, "cl100k_base")
+PL111_022_num = num_tokens_from_string(PL111_022_text, "cl100k_base")
 
-# PUBL343
+# PL110-343
 
-with open('src/machine_readable/PUBL343.txt', 'r') as f:
-  PUBL343_text = f.read()
+with open('src/machine_readable/PL110_343.txt', 'r') as f:
+  PL110_343_text = f.read()
 
-PUBL343_num = num_tokens_from_string(PUBL343_text, "cl100k_base")
+PL110_343_num = num_tokens_from_string(PL110_343_text, "cl100k_base")
+
+# PL110-289
+
+with open('src/machine_readable/PL110_289.txt', 'r') as f:
+  PL110_289_text = f.read()
+
+PL110_289_num = num_tokens_from_string(PL110_289_text, "cl100k_base")
+
+# PL109-351
+
+with open('src/machine_readable/PL109_351.txt', 'r') as f:
+  PL109_351_text = f.read()
+
+PL109_351_num = num_tokens_from_string(PL109_351_text, "cl100k_base")
+
+# PL108-159
+
+with open('src/machine_readable/PL108_159.txt', 'r') as f:
+  PL108_159_text = f.read()
+
+PL108_159_num = num_tokens_from_string(PL108_159_text, "cl100k_base")
+
+# PL100-108
+
+with open('src/machine_readable/PL100_108.txt', 'r') as f:
+  PL100_108_text = f.read()
+
+PL100_108_num = num_tokens_from_string(PL100_108_text, "cl100k_base")
+
+# PL107-204
+
+with open('src/machine_readable/PL107_204.txt', 'r') as f:
+  PL107_204_text = f.read()
+
+PL107_204_num = num_tokens_from_string(PL107_204_text, "cl100k_base")
+
+# PL107-056
+
+with open('src/machine_readable/PL107_056.txt', 'r') as f:
+  PL107_056_text = f.read()
+
+PL107_056_num = num_tokens_from_string(PL107_056_text, "cl100k_base")
 
 # Table
 
 table = PrettyTable()
 
-table.add_column("law text", ["PUBL203", "PUBL174", "PUBL283", "PUBL022", "PUBL343"])
-table.add_column("token length", [PUBL203_num, PUBL174_num, PUBL283_num, PUBL022_num, PUBL343_num])
+table.add_column("law text", )
+table.add_column("token length", )
 
 print(table)
