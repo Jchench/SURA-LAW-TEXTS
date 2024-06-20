@@ -1,7 +1,21 @@
 # Notes
 
-ocrmypdf --tesseract-timeout 0 --force-ocr PL107-056.pdf PL107-056_ocr.pdf
+ocrmypdf --tesseract-timeout 0 --force-ocr PL102-550-3672.pdf PL102-550-3672_ocr.pdf
 
-ocrmypdf --sidecar PL107_056.txt PL107-056_ocr.pdf PL107-056_ocr.pdf
+ocrmypdf --sidecar PL102_550_3672.txt PL102-550-3672_ocr.pdf PL102-550-3672_ocr.pdf
 
+# No txt avail
 Ask about Financial Services Regulatory Relief Act of 2006 (P.L. 109-351, 120 STAT. 9). There is already a Financial Services Regulatory Relief Act of 2006 (P.L. 109-351)
+
+Riegle-Neal Interstate Banking and Branching Efficiency Act of 1994 (P.L. 103-328, 108 STAT. 2338) does not have a txt machine readable version available online.
+
+Riegle Community Development and Regulatory Improvement Act of 1994 (P.L. 103-325, 108 STAT. 2160) also does not have a txt machine readable version available online.
+
+RTC Completion Act of 1993 (P.L. 103-204, 107 STAT. 2369) does not have a txt machine readable version available online.
+
+Annunzio-Wylie Anti-Money Laundering Act of 1992 (P.L. 102-550, 106 STAT. 4044) does not have a txt machine readable version available online.
+
+Housing and Community Development Act of 1992 (P.L. 102-550, 106 STAT. 3672) also does not have a txt machine readable version available online.
+
+#gitignore
+Housing and Community Development Act of 1992 (P.L. 102-550, 106 STAT. 3672) OCR is in git ignore
