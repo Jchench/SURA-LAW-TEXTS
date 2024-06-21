@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+
+target/ocr_pdf/PL102-550-3672_ocr
+target/ocr_pdf/PL101-073_ocr
+target/ocr_pdf/PL101-647-3672_ocr
